@@ -16,6 +16,13 @@ public class ContinueBreakConcept {
                 if(i==2) continue;
                 System.out.println(i);
             }
+
+            // Illustrating break statement (execution stops when value of i becomes to 4.)
+            System.out.println("Break Statement\n");
+            for(int i=1;i<=5;i++){
+                if(i==2) break;
+                System.out.println(i);
+            }
         }
     }
 
