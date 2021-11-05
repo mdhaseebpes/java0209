@@ -8,11 +8,13 @@ public class decimalNumberCountGit {
 
     public static void main(String[] args) {
 
-     //   https://stackoverflow.com/questions/6264576/number-of-decimal-digits-in-a-double
-        double d= 234.12413;
+        //   https://stackoverflow.com/questions/6264576/number-of-decimal-digits-in-a-double
+        //info
+        double d = 234.12413;
         String text = Double.toString(Math.abs(d));
         int integerPlaces = text.indexOf('.');
         int decimalPlaces = text.length() - integerPlaces - 1;
+        System.out.println(decimalPlaces);
         System.out.println(decimalPlaces);
 
 
@@ -30,8 +32,8 @@ public class decimalNumberCountGit {
         Pattern pattern = Pattern.compile(strPattern);
         Matcher matcher = pattern.matcher(strContent);
         System.out.println(matcher);
-        while( matcher.find() ) {
-            System.out.println( matcher.group() );
+        while (matcher.find()) {
+            System.out.println(matcher.group());
         }
     }
 }
