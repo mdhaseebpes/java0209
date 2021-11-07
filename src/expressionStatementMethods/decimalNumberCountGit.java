@@ -14,6 +14,7 @@ public class decimalNumberCountGit {
         int integerPlaces = text.indexOf('.');
         int decimalPlaces = text.length() - integerPlaces - 1;
         System.out.println(decimalPlaces);
+        System.out.println("feature changes");
 
 
 //https://www.javacodeexamples.com/java-regex-extract-numbers-from-string/3512
