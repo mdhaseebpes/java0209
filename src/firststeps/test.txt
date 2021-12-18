@@ -1,2 +1,0 @@
-Hello pull and fetch concept via git
-adding fro fetch command
