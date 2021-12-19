@@ -17,6 +17,7 @@ public class decimalNumberCountGit {
         System.out.println(decimalPlaces);
         System.out.println("feature changes");
         System.out.println("first commit for cherry pick");
+        System.out.println("second commit for cherry pick");
 
 
 //https://www.javacodeexamples.com/java-regex-extract-numbers-from-string/3512
